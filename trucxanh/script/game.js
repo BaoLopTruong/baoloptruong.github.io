@@ -17,7 +17,7 @@ class Game extends Node {
         this.fistCard = null;
         this.secondCard = null;
         this.scores = 100;
-        this.elm.style.backgroundImage = "url(../trucxanh/images/trucxanh_bg.jpg)";
+        this.elm.style.backgroundImage = "url(./trucxanh/images/trucxanh_bg.jpg)";
         this.elm.style.top = "20%";
         this.elm.style.left = "25%";
         this.width = 800;

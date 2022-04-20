@@ -40,7 +40,7 @@ export class Card extends Node {
     }
     setValue(value) {
         this.value = value;
-        this.sprite.path = "./images/trucxanh" + value + ".jpg";
+        this.sprite.path = "./trucxanh/images/trucxanh" + value + ".jpg";
     }
     open() {
         this.cover.elm.style.display = "none";
